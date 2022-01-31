@@ -1,6 +1,6 @@
 # API Gateway
 
-API Gateway, istemcilerle backend sunucuları / mikro servisler arasında duran bir API yönetim aracıdır.
+API Gateway, istemcilerle backend sunucuları / mikro servisler arasında duran bir API yönetim aracıdır. API Gateway’in temel işlevi clienttan isteği alıp uygun servise iletmesidir.
 
 API Gateway, API isteklerini alarak çeşitli kurallara göre uygun servislere yönlendiren bir ``` reverse proxy``` olarak çalışır. API Gateway istek sınırlandırma, istatistik, kimlik doğrulama vs. çeşitli sık kullanılan işlevleri üzerine alarak asıl API sunucularınızın önünde bir üst katman oluşturur.
 
