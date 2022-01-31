@@ -1,31 +1,28 @@
 # API Gateway
 
-API Gateway, istemcilerle backend sunucuları / mikro servisler arasında duran bir API yönetim aracıdır. API Gateway’in temel işlevi clienttan isteği alıp uygun servise iletmesidir.
+API Gateway is an API management tool that stands between clients and backend servers / microservices. The main function of API Gateway is to receive the request from the client and forward it to the appropriate service.
 
-API Gateway, API isteklerini alarak çeşitli kurallara göre uygun servislere yönlendiren bir ``` reverse proxy``` olarak çalışır. API Gateway istek sınırlandırma, istatistik, kimlik doğrulama vs. çeşitli sık kullanılan işlevleri üzerine alarak asıl API sunucularınızın önünde bir üst katman oluşturur.
+API Gateway works as a reverse proxy that receives API requests and redirects them to appropriate services according to various rules. API Gateway request limitation, statistics, authentication etc. it builds a top layer in front of your actual API servers by taking over various frequently used functions.
 
-Son yıllarda kullanılan API’ların yönetiminden doğan zorluklara karşı Amazon Web Service tarafından getirilen bir çözümdür.
 
 ![photo](https://www.gencayyildiz.com/blog/wp-content/uploads/2020/06/Microservice-Mimarisinde-API-Gateway-Nedir.png)
 
 
-###  API Gateway İle Neler Yapılabilir?
+####  What Can Be Done with API Gateway?
 
-#### Authentication ve Authorization
-
-İşlevsel sorumluluğu parça parça üstlenen servislere erişim api gateway üzerinden dolaylı yolla olacağından dolayı kimlik ve yetki doğrulama operasyonlarını sadece api gateway’de yapılandırılabilir.
+Since the access to the services that undertake the functional responsibility piecemeal will be indirectly through the API gateway, identity and authorization verification operations can only be configured on the API gateway.
 
 #### Logging
 
-Servislere yapılan istekler hakkında detaylı loglamalar gerçekleştirilebilir ve böylece hangi servis, kim tarafından, ne kadar yoğunlukta işlevsellik gösteriyor vs. gibi istatistiksel bilgiler edinilebilir.
+Detailed logging can be made about the requests made to the services, so that which service, by whom, how intensely it functions, etc. such as statistical information.
 
 #### Response Caching
 
-API gateway üzerinden servislere gelen talepler neticesinde üretilen çıktıları cacheleyebilir ve böylece servis maliyetleri düşürülebilir.
+It can cache the outputs produced as a result of the requests coming to the services through the API gateway, thus reducing the service costs.
 
 #### Routing
 
-Servislerin adreslerini farklı şekilde kapsüllenebilir ve bu kapsül üzerinden clientlar ilgili esas routelara yönlendirilebilir.
+The addresses of the services can be encapsulated differently and the clients can be directed to the relevant main routes through this capsule.
 
 
 
