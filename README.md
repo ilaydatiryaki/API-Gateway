@@ -26,7 +26,7 @@ API gateway üzerinden servislere gelen talepler neticesinde üretilen çıktıl
 #### Routing
 
 Servislerin adreslerini farklı şekilde kapsüllenebilir ve bu kapsül üzerinden clientlar ilgili esas routelara yönlendirilebilir.
-Yukarıdaki maddelere baktığımızda API Gateway ile yazılımda problemlerin ve işlevsel operasyonların yapıldığı esas kod merkezlerinin dışında kalan ve problem alanından bağımsız kısımları ilgilendiren cross cutting concern ismi verilen alanları ve işlemleri yönetebildiğimizi görebilmekteyiz.
+
 
 
 
