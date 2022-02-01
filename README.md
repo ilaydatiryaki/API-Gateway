@@ -8,7 +8,7 @@ API Gateway works as a reverse proxy that receives API requests and redirects th
 ![photo](https://www.gencayyildiz.com/blog/wp-content/uploads/2020/06/Microservice-Mimarisinde-API-Gateway-Nedir.png)
 
 
-####  API Gateway
+####  What to do with API Gateway?
 
 Since the access to the services that undertake the functional responsibility piecemeal will be indirectly through the API gateway, identity and authorization verification operations can only be configured on the API gateway.
 
